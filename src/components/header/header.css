@@ -1,0 +1,51 @@
+/* *|| Header Section */
+.header--container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4.6875rem;
+}
+
+.header--logoSearch__container {
+  display: flex;
+  gap: 1.5rem;
+}
+.form--control__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.form--control__container label {
+  position: absolute;
+  left: -99999px;
+}
+
+.form--control__container input {
+  font-size: .875rem;
+  padding: 1.125rem 3.625rem;
+  border-radius: 12px;
+  border: 1px solid var(--color-light-grey);
+  filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.1));
+}
+
+.form--control__container input {
+  outline: none;
+}
+.form--control__container span {
+  position: absolute;
+  z-index: 1;
+  left: 1.195rem;
+  color: var(--color-light-grey);
+}
+
+.header--addphoto__button {
+  font-size: 1rem;
+  padding: 1rem 1.25rem;
+  font-weight: 700;
+  background-color: var(--color-green);
+  border-radius: 12px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+}
